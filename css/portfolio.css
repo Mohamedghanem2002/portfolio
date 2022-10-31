@@ -60,6 +60,7 @@
     display: flex;
     justify-content: space-between;
   }
+ 
   .header .container .logo h1{
     font-weight: 700;
     font-size: 30px;
@@ -69,17 +70,20 @@
   .header .container .links{
     padding-top: 10px;
   }
+ 
   .header .container .links ul{
     display: flex;
   }
+  
   .header .container .links ul li{
     padding-left: 50px;
     list-style: none;
   }
+ 
   @media(max-width:787px)
   {
-    .header .container .links{
-        display: none;
+    .header .container .links ul{
+      display: none;
     }
     .header .container .logo{
        width: 100%;      
@@ -96,6 +100,13 @@
     font-weight: 500;
     font-size: 18px;
     transition: var(--main-transition);
+  }
+  @media(max-width:787px){
+    
+    .header .container .links ul li a{
+      color: #777;
+      font-size:15px;
+    }
   }
   .header .container .links ul li a:hover{
     color: blue;
@@ -238,9 +249,11 @@
   }
   @media(max-width:787px)
   {
-    .projects .container{
+    .projects .container .card{
       width: 80%;
+     margin: 0px auto;
     }
+   
   }
   .projects .container img{
     width: 100%;
