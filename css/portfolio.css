@@ -152,9 +152,9 @@
     margin-bottom: 30px;
   }
   .section .title a{
-    color: white;
+    color: var(--main-color);
     text-decoration: none;
-    background-color: var(--main-color-alt);
+    background-color: white;
     padding: 15px 30px;
     border-radius: 15px;
     display: inline-block;
@@ -165,7 +165,8 @@
     transition: var(--main-transition) ease;
 }
 .section .title a:hover{
-    background-color: blue;
+    background-color: var(--main-color);
+    color: white;
     transform: scale(1.1);
 }
 
