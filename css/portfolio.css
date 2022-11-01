@@ -260,7 +260,6 @@
     border-radius: 10px;
     
   }
-  
   .projects .container .card{
     background-color: white;
     border-radius: 10px;
@@ -284,14 +283,12 @@
     text-align: center;
     font-weight: 300;
   }
-  .projects .container .card hr{
-    color: rgb(201, 190, 190);
-  }
+  
   .projects .container .card .text{
     display: flex;
     justify-content: space-between;
     padding:20px 20px;
-
+    border-top: 2px solid rgb(231, 226, 226);
   }
   .projects .container .card .text i{
     color: var(--main-color);
